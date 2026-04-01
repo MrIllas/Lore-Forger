@@ -1,0 +1,63 @@
+:root
+{
+	/* ===== COLOR PALETTE ===== */
+
+	/* Background / Grid */
+	--lf-colors-grid-light-grey-1: #1f1f23;
+	--lf-colors-grid-light-grey-2: rgba(80, 80, 90, 0.25);
+	--lf-colors-grid-light-grey-3: rgba(60, 60, 70, 0.9);
+
+	/* Window Layers (more depth contrast) */
+	--lf-colors-window-dark-grey-1: #141416;
+	--lf-colors-window-dark-grey-2: #1c1c20;
+	--lf-colors-window-dark-grey-3: #202126;
+	--lf-colors-window-dark-grey-4: #25262b;
+	--lf-colors-window-dark-grey-5: #2a2c32;
+	--lf-colors-window-dark-grey-6: #30323a;
+
+	/* Accent (make it pop more) */
+	--lf-colors-window-yellow: #FFD86B;
+	--lf-colors-accent-primary: #6BCBFF;     /* neon blue */
+	--lf-colors-accent-secondary: #A78BFA;   /* soft purple */
+	--lf-colors-accent-danger: #FF6B6B;
+
+	/* Glow (for highlights, dialogue focus, etc.) */
+	--lf-colors-glow-primary: rgba(107, 203, 255, 0.25);
+	--lf-colors-glow-yellow: rgba(255, 216, 107, 0.25);
+
+	/* Text */
+	--lf-colors-text-main: #EAEAF0;
+	--lf-colors-text-muted: #A0A3AD;
+	--lf-colors-text-dim: #6B6E77;
+
+
+	/* ===== METRICS ===== */
+
+	--lf-metrics-grid-25: 25;
+
+	/* Spacing */
+	--lf-metrics-window-pixels-n12: -12px;
+	--lf-metrics-window-pixels-n4: -4px;
+	--lf-metrics-window-pixels-0: 0px;
+	--lf-metrics-window-pixels-2: 2px;
+	--lf-metrics-window-pixels-4: 4px;
+	--lf-metrics-window-pixels-6: 6px;
+	--lf-metrics-window-pixels-8: 8px;
+	--lf-metrics-window-pixels-11: 11px;
+	--lf-metrics-window-pixels-16: 16px;
+	--lf-metrics-window-pixels-25: 25px;
+	--lf-metrics-window-pixels-35: 35px;
+	--lf-metrics-window-pixels-120: 120px;
+	--lf-metrics-window-pixels-160: 160px;
+	--lf-metrics-window-pixels-240: 240px;
+	--lf-metrics-window-pixels-600: 600px;
+	--lf-metrics-window-pixels-1000: 1000px;
+
+	/* New: radius + depth */
+	--lf-radius-small: 6px;
+	--lf-radius-medium: 10px;
+	--lf-radius-large: 16px;
+
+	--lf-shadow-soft: 0 4px 12px rgba(0, 0, 0, 0.4);
+	--lf-shadow-strong: 0 8px 24px rgba(0, 0, 0, 0.6);
+}
